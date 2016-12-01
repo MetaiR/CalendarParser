@@ -1,0 +1,1058 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool" kind="class" language="Java" prot="public">
+    <compoundname>com::SeyedAliRoshan::www::CalendarTool</compoundname>
+      <sectiondef kind="package-static-attrib">
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a3492d458a4d77f2a84cceb49db7535d0" prot="package" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String com.SeyedAliRoshan.www.CalendarTool.iraniWeekDayStr[]</definition>
+        <argsstring>[]</argsstring>
+        <name>iraniWeekDayStr</name>
+        <initializer>= {
+            &quot;دوشنبه&quot;,
+            &quot;سه شنبه&quot;,
+            &quot;چهارشنبه&quot;,
+            &quot;پنجشنبه&quot;,
+            &quot;جمعه&quot;,
+            &quot;شنبه&quot;,
+            &quot;یکشنبه&quot;}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="39" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aea3003a6e3dac4639349a43521152c39" prot="package" static="yes" mutable="no">
+        <type>String[]</type>
+        <definition>String [] com.SeyedAliRoshan.www.CalendarTool.iraniMonthStr</definition>
+        <argsstring></argsstring>
+        <name>iraniMonthStr</name>
+        <initializer>= new String[]{
+            &quot;NA&quot;,
+            &quot;فروردین&quot;,
+            &quot;اردیبهشت&quot;,
+            &quot;خرداد&quot;,
+            &quot;تیر&quot;,
+            &quot;مرداد&quot;,
+            &quot;شهریور&quot;,
+            &quot;مهر&quot;,
+            &quot;آبان&quot;,
+            &quot;آذر&quot;,
+            &quot;دی&quot;,
+            &quot;بهمن&quot;,
+            &quot;اسفند&quot;,
+    }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="47" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a177872fd626426d9c6d4152cf2d85a8f" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.irYear</definition>
+        <argsstring></argsstring>
+        <name>irYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="62" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a687989a8dfd240f8040d3c7226d09b89" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.irMonth</definition>
+        <argsstring></argsstring>
+        <name>irMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="63" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a2053c2faf174d496a6c4ba93ddce7716" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.irDay</definition>
+        <argsstring></argsstring>
+        <name>irDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="64" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aa3dca181a23ec1b9adb472d2e7f9c95b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.gYear</definition>
+        <argsstring></argsstring>
+        <name>gYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="65" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aedf1fd1e84c80a3edfa1cc7aa078ec70" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.gMonth</definition>
+        <argsstring></argsstring>
+        <name>gMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="66" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a997325babcf8af6a09c8e29e5d9e316e" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.gDay</definition>
+        <argsstring></argsstring>
+        <name>gDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="67" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a11e1bd3c296a479629513c624f3c3cb5" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.juYear</definition>
+        <argsstring></argsstring>
+        <name>juYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="68" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1adeff9edb417554c60a63ad8281a8106c" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.juMonth</definition>
+        <argsstring></argsstring>
+        <name>juMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="69" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a3aaea6ba2a4d660fea831c496e2a3735" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.juDay</definition>
+        <argsstring></argsstring>
+        <name>juDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="70" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a65451a04742088d6fd808e8fb8d8ab06" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.leap</definition>
+        <argsstring></argsstring>
+        <name>leap</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="71" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a47e21e78717a05778bb1c156ce3db204" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.JDN</definition>
+        <argsstring></argsstring>
+        <name>JDN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="72" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a9020e77f880092077d2c4451f6f098b7" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.march</definition>
+        <argsstring></argsstring>
+        <name>march</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="73" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a5bac292bba8e7a28dcdafe093072763a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.SeyedAliRoshan.www.CalendarTool.CalendarTool</definition>
+        <argsstring>()</argsstring>
+        <name>CalendarTool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>JavaSource_Calendar: The default constructor uses the current Gregorian date to initialize the other private memebers of the class (Iranian and Julian dates). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="80" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="80" bodyend="85"/>
+        <references refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a6299181390578255631f827c7bb1f358" compoundref="_calendar_tool_8java" startline="377" endline="385">com.SeyedAliRoshan.www.CalendarTool.setGregorianDate</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a4cd03f8f1a3580a0a8d1fb56b535c028" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>com.SeyedAliRoshan.www.CalendarTool.CalendarTool</definition>
+        <argsstring>(int year, int month, int day)</argsstring>
+        <name>CalendarTool</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>JavaSource_Calendar: This constructor receives a Gregorian date and initializes the other private members of the class accordingly.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="96" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="96" bodyend="98"/>
+        <references refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a6299181390578255631f827c7bb1f358" compoundref="_calendar_tool_8java" startline="377" endline="385">com.SeyedAliRoshan.www.CalendarTool.setGregorianDate</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a032e77ba430be265ff9d55805237be5e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.getIranianYear</definition>
+        <argsstring>()</argsstring>
+        <name>getIranianYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getIranianYear: Returns the &apos;year&apos; part of the Iranian date.</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="106" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="106" bodyend="108"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae9011cd29c301785e51037c704bd6ee4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.getIranianMonth</definition>
+        <argsstring>()</argsstring>
+        <name>getIranianMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getIranianMonth: Returns the &apos;month&apos; part of the Iranian date.</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="116" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="116" bodyend="118"/>
+        <referencedby refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a6f594c497638e8ab22b843429cd0c33c" compoundref="_calendar_tool_8java" startline="134" endline="136">com.SeyedAliRoshan.www.CalendarTool.getIranianMonthStr</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1adc0f3121df6416309d8837cfc2b3ef0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.getIranianDay</definition>
+        <argsstring>()</argsstring>
+        <name>getIranianDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getIranianDay: Returns the &apos;day&apos; part of the Iranian date.</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="126" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="126" bodyend="128"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a369f2b171ef0b5acfe4fb102033a87d4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.SeyedAliRoshan.www.CalendarTool.getIranianWeekDayStr</definition>
+        <argsstring>()</argsstring>
+        <name>getIranianWeekDayStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="130" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="130" bodyend="132"/>
+        <references refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a47c154df912d7c29f787e9724d5b19bf" compoundref="_calendar_tool_8java" startline="297" endline="299">com.SeyedAliRoshan.www.CalendarTool.getDayOfWeek</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a6f594c497638e8ab22b843429cd0c33c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.SeyedAliRoshan.www.CalendarTool.getIranianMonthStr</definition>
+        <argsstring>()</argsstring>
+        <name>getIranianMonthStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="134" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="134" bodyend="136"/>
+        <references refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae9011cd29c301785e51037c704bd6ee4" compoundref="_calendar_tool_8java" startline="116" endline="118">com.SeyedAliRoshan.www.CalendarTool.getIranianMonth</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a75bd27aa8e56ff610fb24c5d8875f675" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.getGregorianYear</definition>
+        <argsstring>()</argsstring>
+        <name>getGregorianYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getGregorianYear: Returns the &apos;year&apos; part of the Gregorian date.</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="144" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="144" bodyend="146"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a35f24d4098f8fdb9ce1134267679b007" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.getGregorianMonth</definition>
+        <argsstring>()</argsstring>
+        <name>getGregorianMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getGregorianMonth: Returns the &apos;month&apos; part of the Gregorian date.</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="154" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="154" bodyend="156"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a0f4bcde4f5df18120510c9db1d0bcd85" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.getGregorianDay</definition>
+        <argsstring>()</argsstring>
+        <name>getGregorianDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getGregorianDay: Returns the &apos;day&apos; part of the Gregorian date.</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="164" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="164" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a61e6dae7e20420b13cd99871d3ec83cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.getJulianYear</definition>
+        <argsstring>()</argsstring>
+        <name>getJulianYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getJulianYear: Returns the &apos;year&apos; part of the Julian date.</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="174" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="174" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a55ec1b9e58157723f2ea6a5d4167a3f0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.getJulianMonth</definition>
+        <argsstring>()</argsstring>
+        <name>getJulianMonth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getJulianMonth: Returns the &apos;month&apos; part of the Julian date.</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="184" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="184" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a41147d1ef316a32e2db40eed38022496" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.getJulianDay</definition>
+        <argsstring>()</argsstring>
+        <name>getJulianDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a41147d1ef316a32e2db40eed38022496" kindref="member">getJulianDay()</ref> Returns the &apos;day&apos; part of the Julian date.</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="194" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="194" bodyend="196"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a77886e70247351f6f845fa88bdc8fa14" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.SeyedAliRoshan.www.CalendarTool.getIranianDate</definition>
+        <argsstring>()</argsstring>
+        <name>getIranianDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getIranianDate: Returns a string version of Iranian date</para><para><simplesect kind="return"><para>String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="204" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="204" bodyend="206"/>
+        <referencedby refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ad236b0b986cfd9a5d4c62c1fd2b3e836" compoundref="_calendar_tool_8java" startline="284" endline="289">com.SeyedAliRoshan.www.CalendarTool.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1af9a814c0d0be587f5598a479d35d6f7b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.SeyedAliRoshan.www.CalendarTool.getIranianDate</definition>
+        <argsstring>(String Pattern)</argsstring>
+        <name>getIranianDate</name>
+        <param>
+          <type>String</type>
+          <declname>Pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getIranianDate: Returns a string version of Iranian date with user pattern separator. <simplesect kind="author"><para>Seyed Ali Roshan </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Pattern</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="215" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="215" bodyend="217"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a9995342b318abf5e7ef064432501f06a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.setIranianDate</definition>
+        <argsstring>(String jalaliAirDate)</argsstring>
+        <name>setIranianDate</name>
+        <param>
+          <type>String</type>
+          <declname>jalaliAirDate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="219" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="219" bodyend="227"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a2d6513e1ec00cb12ee49728ec8879e20" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.SeyedAliRoshan.www.CalendarTool.getGregorianDate</definition>
+        <argsstring>()</argsstring>
+        <name>getGregorianDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getGregorianDate: Returns a string version of Gregorian date</para><para><simplesect kind="return"><para>String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="235" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="235" bodyend="237"/>
+        <referencedby refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ad236b0b986cfd9a5d4c62c1fd2b3e836" compoundref="_calendar_tool_8java" startline="284" endline="289">com.SeyedAliRoshan.www.CalendarTool.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a64e054f39d6cf063e0abcb23c107761c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.SeyedAliRoshan.www.CalendarTool.getGregorianDate</definition>
+        <argsstring>(String Pattern)</argsstring>
+        <name>getGregorianDate</name>
+        <param>
+          <type>String</type>
+          <declname>Pattern</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getGregorianDate: Returns a string version of Gregorian date which used user pattern as separator. <simplesect kind="author"><para>Seyed Ali Roshan </para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>Pattern</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="246" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="246" bodyend="248"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae0c8c9034e150da4d8442f374244cab3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.SeyedAliRoshan.www.CalendarTool.getJulianDate</definition>
+        <argsstring>()</argsstring>
+        <name>getJulianDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getJulianDate: Returns a string version of Julian date</para><para><simplesect kind="return"><para>String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="256" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="256" bodyend="258"/>
+        <referencedby refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ad236b0b986cfd9a5d4c62c1fd2b3e836" compoundref="_calendar_tool_8java" startline="284" endline="289">com.SeyedAliRoshan.www.CalendarTool.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a04489ed109d9d4d88b12ef7cfe6d84c8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.SeyedAliRoshan.www.CalendarTool.getWeekDayStr</definition>
+        <argsstring>()</argsstring>
+        <name>getWeekDayStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getWeekDayStr: Returns the week day name.</para><para><simplesect kind="return"><para>String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="266" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="266" bodyend="276"/>
+        <references refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a47c154df912d7c29f787e9724d5b19bf" compoundref="_calendar_tool_8java" startline="297" endline="299">com.SeyedAliRoshan.www.CalendarTool.getDayOfWeek</references>
+        <referencedby refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ad236b0b986cfd9a5d4c62c1fd2b3e836" compoundref="_calendar_tool_8java" startline="284" endline="289">com.SeyedAliRoshan.www.CalendarTool.toString</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ad236b0b986cfd9a5d4c62c1fd2b3e836" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String com.SeyedAliRoshan.www.CalendarTool.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>toString: Overrides the default <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ad236b0b986cfd9a5d4c62c1fd2b3e836" kindref="member">toString()</ref> method to return all dates.</para><para><simplesect kind="return"><para>String </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="284" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="284" bodyend="289"/>
+        <references refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a04489ed109d9d4d88b12ef7cfe6d84c8" compoundref="_calendar_tool_8java" startline="266" endline="276">com.SeyedAliRoshan.www.CalendarTool.getWeekDayStr</references>
+        <references refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a2d6513e1ec00cb12ee49728ec8879e20" compoundref="_calendar_tool_8java" startline="235" endline="237">com.SeyedAliRoshan.www.CalendarTool.getGregorianDate</references>
+        <references refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae0c8c9034e150da4d8442f374244cab3" compoundref="_calendar_tool_8java" startline="256" endline="258">com.SeyedAliRoshan.www.CalendarTool.getJulianDate</references>
+        <references refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a77886e70247351f6f845fa88bdc8fa14" compoundref="_calendar_tool_8java" startline="204" endline="206">com.SeyedAliRoshan.www.CalendarTool.getIranianDate</references>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a47c154df912d7c29f787e9724d5b19bf" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.getDayOfWeek</definition>
+        <argsstring>()</argsstring>
+        <name>getDayOfWeek</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>getDayOfWeek: Returns the week day number. Monday=0..Sunday=6;</para><para><simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="297" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="297" bodyend="299"/>
+        <referencedby refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a369f2b171ef0b5acfe4fb102033a87d4" compoundref="_calendar_tool_8java" startline="130" endline="132">com.SeyedAliRoshan.www.CalendarTool.getIranianWeekDayStr</referencedby>
+        <referencedby refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a04489ed109d9d4d88b12ef7cfe6d84c8" compoundref="_calendar_tool_8java" startline="266" endline="276">com.SeyedAliRoshan.www.CalendarTool.getWeekDayStr</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ab59e8a3ee76803057ef8210f6d7a9bbd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.nextDay</definition>
+        <argsstring>()</argsstring>
+        <name>nextDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>nextDay: Go to next julian day number (JDN) and adjusts the other dates. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="305" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="305" bodyend="310"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a52daf9e8935afad5dff3e1482c47bc30" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.nextDay</definition>
+        <argsstring>(int days)</argsstring>
+        <name>nextDay</name>
+        <param>
+          <type>int</type>
+          <declname>days</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>nextDay: Overload the <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ab59e8a3ee76803057ef8210f6d7a9bbd" kindref="member">nextDay()</ref> method to accept the number of days to go ahead and adjusts the other dates accordingly.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>days</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="319" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="319" bodyend="324"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aba478ff987023dc1b76c9e58193a59f4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.previousDay</definition>
+        <argsstring>()</argsstring>
+        <name>previousDay</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>previousDay: Go to previous julian day number (JDN) and adjusts the otehr dates. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="330" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="330" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a00d787ebbcd21fb884e0e6708b88fe84" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.previousDay</definition>
+        <argsstring>(int days)</argsstring>
+        <name>previousDay</name>
+        <param>
+          <type>int</type>
+          <declname>days</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>previousDay: Overload the <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aba478ff987023dc1b76c9e58193a59f4" kindref="member">previousDay()</ref> method to accept the number of days to go backward and adjusts the other dates accordingly.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>days</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="344" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="344" bodyend="349"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1abc55d566a57a157009a5c40b7a0fb53f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.setIranianDate</definition>
+        <argsstring>(int year, int month, int day)</argsstring>
+        <name>setIranianDate</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setIranianDate: Sets the date according to the Iranian calendar and adjusts the other dates.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="359" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="359" bodyend="367"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a6299181390578255631f827c7bb1f358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.setGregorianDate</definition>
+        <argsstring>(int year, int month, int day)</argsstring>
+        <name>setGregorianDate</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setGregorianDate: Sets the date according to the Gregorian calendar and adjusts the other dates.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="377" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="377" bodyend="385"/>
+        <referencedby refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a5bac292bba8e7a28dcdafe093072763a" compoundref="_calendar_tool_8java" startline="80" endline="85">com.SeyedAliRoshan.www.CalendarTool.CalendarTool</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae50de6d166135c2b5b7d107d37ca201e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.setJulianDate</definition>
+        <argsstring>(int year, int month, int day)</argsstring>
+        <name>setJulianDate</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>setJulianDate: Sets the date according to the Julian calendar and adjusts the other dates.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="395" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="395" bodyend="403"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a281b3d746597ab1d1c5b0509407017b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean com.SeyedAliRoshan.www.CalendarTool.IsLeap</definition>
+        <argsstring>(int irYear1)</argsstring>
+        <name>IsLeap</name>
+        <param>
+          <type>int</type>
+          <declname>irYear1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IsLeap: This method determines if the Iranian (Jalali) year is leap (366-day long) or is the common year (365 days), and finds the day in March (Gregorian Calendar)of the first day of the Iranian year (&apos;irYear&apos;).Iranian year (irYear) ranges from (-61 to 3177).This method will set the following private data members as follows: leap: Number of years since the last leap year (0 to 4) Gy: Gregorian year of the begining of Iranian year march: The March day of Farvardin the 1st (first day of jaYear) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="464" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="464" bodyend="504"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aff22e098ca95ea166d388c02fcab5703" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.IranianCalendar</definition>
+        <argsstring>()</argsstring>
+        <name>IranianCalendar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IranianCalendar: This method determines if the Iranian (Jalali) year is leap (366-day long) or is the common year (365 days), and finds the day in March (Gregorian Calendar)of the first day of the Iranian year (&apos;irYear&apos;).Iranian year (irYear) ranges from (-61 to 3177).This method will set the following private data members as follows: leap: Number of years since the last leap year (0 to 4) Gy: Gregorian year of the begining of Iranian year march: The March day of Farvardin the 1st (first day of jaYear) </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="416" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="416" bodyend="451"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a535ce46ebf18ebe105659cda0b788b43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.IranianDateToJDN</definition>
+        <argsstring>()</argsstring>
+        <name>IranianDateToJDN</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>IranianDateToJDN: Converts a date of the Iranian calendar to the Julian Day Number. It first invokes the &apos;IranianCalender&apos; private method to convert the Iranian date to Gregorian date and then returns the Julian Day Number based on the Gregorian date. The Iranian date is obtained from &apos;irYear&apos;(1-3100),&apos;irMonth&apos;(1-12) and &apos;irDay&apos;(1-29/31).</para><para><simplesect kind="return"><para>long (Julian Day Number) </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="516" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="516" bodyend="519"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a1c1861f4ba2a3d66c4a08fcf2a7223b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.JDNToIranian</definition>
+        <argsstring>()</argsstring>
+        <name>JDNToIranian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>JDNToIranian: Converts the current value of &apos;JDN&apos; Julian Day Number to a date in the Iranian calendar. The caller should make sure that the current value of &apos;JDN&apos; is set correctly. This method first converts the JDN to Gregorian calendar and then to Iranian calendar. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="528" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="528" bodyend="549"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1adb4c85f74497c6540bdcb7ace37edbf7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.julianDateToJDN</definition>
+        <argsstring>(int year, int month, int day)</argsstring>
+        <name>julianDateToJDN</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>julianDateToJDN: Calculates the julian day number (JDN) from Julian calendar dates. This integer number corresponds to the noon of the date (i.e. 12 hours of Universal Time). This method was tested to be good (valid) since 1 March, -100100 (of both calendars) up to a few millions (10^6) years into the future. The algorithm is based on D.A.Hatcher, Q.Jl.R.Astron.Soc. 25(1984), 53-55 slightly modified by K.M. Borkowski, Post.Astron. 25(1987), 275-279.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="565" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="565" bodyend="567"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1abb536b66c2e4e0789ad593623bb28ab5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.JDNToJulian</definition>
+        <argsstring>()</argsstring>
+        <name>JDNToJulian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>JDNToJulian: Calculates Julian calendar dates from the julian day number (JDN) for the period since JDN=-34839655 (i.e. the year -100100 of both calendars) to some millions (10^6) years ahead of the present. The algorithm is based on D.A. Hatcher, Q.Jl.R.Astron.Soc. 25(1984), 53-55 slightly modified by K.M. Borkowski, Post.Astron. 25(1987), 275-279). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="577" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="577" bodyend="583"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a2bef893d8e298e5074cbb7a07089dced" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int com.SeyedAliRoshan.www.CalendarTool.gregorianDateToJDN</definition>
+        <argsstring>(int year, int month, int day)</argsstring>
+        <name>gregorianDateToJDN</name>
+        <param>
+          <type>int</type>
+          <declname>year</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>month</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>day</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>gergorianDateToJDN: Calculates the julian day number (JDN) from Gregorian calendar dates. This integer number corresponds to the noon of the date (i.e. 12 hours of Universal Time). This method was tested to be good (valid) since 1 March, -100100 (of both calendars) up to a few millions (10^6) years into the future. The algorithm is based on D.A.Hatcher, Q.Jl.R.Astron.Soc. 25(1984), 53-55 slightly modified by K.M. Borkowski, Post.Astron. 25(1987), 275-279.</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>year</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>month</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>day</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>int </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>int </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="599" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="599" bodyend="603"/>
+      </memberdef>
+      <memberdef kind="function" id="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aba4118e4834e9a595f825b31844dde99" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void com.SeyedAliRoshan.www.CalendarTool.JDNToGregorian</definition>
+        <argsstring>()</argsstring>
+        <name>JDNToGregorian</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>JDNToGregorian: Calculates Gregorian calendar dates from the julian day number (JDN) for the period since JDN=-34839655 (i.e. the year -100100 of both calendars) to some millions (10^6) years ahead of the present. The algorithm is based on D.A. Hatcher, Q.Jl.R.Astron.Soc. 25(1984), 53-55 slightly modified by K.M. Borkowski, Post.Astron. 25(1987), 275-279). </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="613" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="613" bodyend="620"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Title: Calender Conversion class Description: Convert Iranian (Jalali), Julian, and Gregorian dates to each other <heading level="2">Public Methods Summary: </heading>
+</para><para>JavaSource_Calendar(); JavaSource_Calendar(int year, int month, int day); int <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a032e77ba430be265ff9d55805237be5e" kindref="member">getIranianYear()</ref>; int <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae9011cd29c301785e51037c704bd6ee4" kindref="member">getIranianMonth()</ref>; int <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1adc0f3121df6416309d8837cfc2b3ef0c" kindref="member">getIranianDay()</ref>; int <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a75bd27aa8e56ff610fb24c5d8875f675" kindref="member">getGregorianYear()</ref>; int <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a35f24d4098f8fdb9ce1134267679b007" kindref="member">getGregorianMonth()</ref>; int <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a0f4bcde4f5df18120510c9db1d0bcd85" kindref="member">getGregorianDay()</ref>; int <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a61e6dae7e20420b13cd99871d3ec83cd" kindref="member">getJulianYear()</ref>; int <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a55ec1b9e58157723f2ea6a5d4167a3f0" kindref="member">getJulianMonth()</ref>; int <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a41147d1ef316a32e2db40eed38022496" kindref="member">getJulianDay()</ref>; String <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a77886e70247351f6f845fa88bdc8fa14" kindref="member">getIranianDate()</ref>; String <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a2d6513e1ec00cb12ee49728ec8879e20" kindref="member">getGregorianDate()</ref>; String <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae0c8c9034e150da4d8442f374244cab3" kindref="member">getJulianDate()</ref>; String <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a04489ed109d9d4d88b12ef7cfe6d84c8" kindref="member">getWeekDayStr()</ref>; String <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ad236b0b986cfd9a5d4c62c1fd2b3e836" kindref="member">toString()</ref>; int <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a47c154df912d7c29f787e9724d5b19bf" kindref="member">getDayOfWeek()</ref>; void <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ab59e8a3ee76803057ef8210f6d7a9bbd" kindref="member">nextDay()</ref>; void <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a52daf9e8935afad5dff3e1482c47bc30" kindref="member">nextDay(int days)</ref>; void <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aba478ff987023dc1b76c9e58193a59f4" kindref="member">previousDay()</ref>; void <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a00d787ebbcd21fb884e0e6708b88fe84" kindref="member">previousDay(int days)</ref>; void <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1abc55d566a57a157009a5c40b7a0fb53f" kindref="member">setIranianDate(int year, int month, int day)</ref>; void <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a6299181390578255631f827c7bb1f358" kindref="member">setGregorianDate(int year, int month, int day)</ref>; void <ref refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae50de6d166135c2b5b7d107d37ca201e" kindref="member">setJulianDate(int year, int month, int day)</ref>; </para>    </detaileddescription>
+    <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="37" column="1" bodyfile="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" bodystart="37" bodyend="621"/>
+    <listofallmembers>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a5bac292bba8e7a28dcdafe093072763a" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>CalendarTool</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a4cd03f8f1a3580a0a8d1fb56b535c028" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>CalendarTool</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a997325babcf8af6a09c8e29e5d9e316e" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>gDay</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a47c154df912d7c29f787e9724d5b19bf" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getDayOfWeek</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a2d6513e1ec00cb12ee49728ec8879e20" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getGregorianDate</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a64e054f39d6cf063e0abcb23c107761c" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getGregorianDate</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a0f4bcde4f5df18120510c9db1d0bcd85" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getGregorianDay</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a35f24d4098f8fdb9ce1134267679b007" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getGregorianMonth</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a75bd27aa8e56ff610fb24c5d8875f675" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getGregorianYear</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a77886e70247351f6f845fa88bdc8fa14" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getIranianDate</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1af9a814c0d0be587f5598a479d35d6f7b" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getIranianDate</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1adc0f3121df6416309d8837cfc2b3ef0c" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getIranianDay</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae9011cd29c301785e51037c704bd6ee4" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getIranianMonth</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a6f594c497638e8ab22b843429cd0c33c" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getIranianMonthStr</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a369f2b171ef0b5acfe4fb102033a87d4" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getIranianWeekDayStr</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a032e77ba430be265ff9d55805237be5e" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getIranianYear</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae0c8c9034e150da4d8442f374244cab3" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getJulianDate</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a41147d1ef316a32e2db40eed38022496" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getJulianDay</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a55ec1b9e58157723f2ea6a5d4167a3f0" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getJulianMonth</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a61e6dae7e20420b13cd99871d3ec83cd" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getJulianYear</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a04489ed109d9d4d88b12ef7cfe6d84c8" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>getWeekDayStr</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aedf1fd1e84c80a3edfa1cc7aa078ec70" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>gMonth</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a2bef893d8e298e5074cbb7a07089dced" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>gregorianDateToJDN</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aa3dca181a23ec1b9adb472d2e7f9c95b" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>gYear</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aff22e098ca95ea166d388c02fcab5703" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>IranianCalendar</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a535ce46ebf18ebe105659cda0b788b43" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>IranianDateToJDN</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aea3003a6e3dac4639349a43521152c39" prot="package" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>iraniMonthStr</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a3492d458a4d77f2a84cceb49db7535d0" prot="package" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>iraniWeekDayStr</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a2053c2faf174d496a6c4ba93ddce7716" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>irDay</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a687989a8dfd240f8040d3c7226d09b89" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>irMonth</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a177872fd626426d9c6d4152cf2d85a8f" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>irYear</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a281b3d746597ab1d1c5b0509407017b6" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>IsLeap</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a47e21e78717a05778bb1c156ce3db204" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>JDN</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aba4118e4834e9a595f825b31844dde99" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>JDNToGregorian</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a1c1861f4ba2a3d66c4a08fcf2a7223b4" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>JDNToIranian</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1abb536b66c2e4e0789ad593623bb28ab5" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>JDNToJulian</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a3aaea6ba2a4d660fea831c496e2a3735" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>juDay</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1adb4c85f74497c6540bdcb7ace37edbf7" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>julianDateToJDN</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1adeff9edb417554c60a63ad8281a8106c" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>juMonth</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a11e1bd3c296a479629513c624f3c3cb5" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>juYear</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a65451a04742088d6fd808e8fb8d8ab06" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>leap</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a9020e77f880092077d2c4451f6f098b7" prot="private" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>march</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ab59e8a3ee76803057ef8210f6d7a9bbd" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>nextDay</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a52daf9e8935afad5dff3e1482c47bc30" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>nextDay</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1aba478ff987023dc1b76c9e58193a59f4" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>previousDay</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a00d787ebbcd21fb884e0e6708b88fe84" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>previousDay</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a6299181390578255631f827c7bb1f358" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>setGregorianDate</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1a9995342b318abf5e7ef064432501f06a" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>setIranianDate</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1abc55d566a57a157009a5c40b7a0fb53f" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>setIranianDate</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ae50de6d166135c2b5b7d107d37ca201e" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>setJulianDate</name></member>
+      <member refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool_1ad236b0b986cfd9a5d4c62c1fd2b3e836" prot="public" virt="non-virtual"><scope>com::SeyedAliRoshan::www::CalendarTool</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

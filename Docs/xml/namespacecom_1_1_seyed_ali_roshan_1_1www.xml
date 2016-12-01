@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="namespacecom_1_1_seyed_ali_roshan_1_1www" kind="namespace" language="Java">
+    <compoundname>com::SeyedAliRoshan::www</compoundname>
+    <innerclass refid="classcom_1_1_seyed_ali_roshan_1_1www_1_1_calendar_tool" prot="public">com::SeyedAliRoshan::www::CalendarTool</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/seyed/NetBeansProjects/CalendarParser/src/com/SeyedAliRoshan/www/CalendarTool.java" line="1" column="1"/>
+  </compounddef>
+</doxygen>

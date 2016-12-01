@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_c9367708855e5dd1d7b5e4d313c8e727" kind="dir">
+    <compoundname>/home/seyed/NetBeansProjects/CalendarParser/src</compoundname>
+    <innerdir refid="dir_99acd8b46496b31931587c799fa194eb">/home/seyed/NetBeansProjects/CalendarParser/src/com</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/seyed/NetBeansProjects/CalendarParser/src/"/>
+  </compounddef>
+</doxygen>

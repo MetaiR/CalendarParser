@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.11">
+  <compounddef id="dir_080284552cea470b8b5510f7b2ccccfb" kind="dir">
+    <compoundname>/home/seyed</compoundname>
+    <innerdir refid="dir_213ab8c3adc2520acb03297c50855bed">/home/seyed/NetBeansProjects</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/seyed/"/>
+  </compounddef>
+</doxygen>
