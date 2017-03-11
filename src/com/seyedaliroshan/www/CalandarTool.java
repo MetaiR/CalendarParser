@@ -1,4 +1,4 @@
-package com.SeyedAliRoshan.www;
+package com.seyedaliroshan.www;
 
 import java.util.Calendar;
 import java.util.GregorianCalendar;
@@ -34,7 +34,7 @@ import java.util.GregorianCalendar;
  * void setGregorianDate(int year, int month, int day);
  * void setJulianDate(int year, int month, int day);
  */
-public class CalendarTool {
+public class CalandarTool {
 
     static String iraniWeekDayStr[] = {
             "دوشنبه",
@@ -77,7 +77,7 @@ public class CalendarTool {
      * The default constructor uses the current Gregorian date to initialize the
      * other private memebers of the class (Iranian and Julian dates).
      */
-    public CalendarTool() {
+    public CalandarTool() {
         Calendar calendar = new GregorianCalendar();
         setGregorianDate(calendar.get(Calendar.YEAR),
                 calendar.get(Calendar.MONTH) + 1,
@@ -93,7 +93,7 @@ public class CalendarTool {
      * @param month int
      * @param day   int
      */
-    public CalendarTool(int year, int month, int day) {
+    public CalandarTool(int year, int month, int day) {
         setGregorianDate(year, month, day);
     }
 
@@ -207,14 +207,20 @@ public class CalendarTool {
 
     /**
      * getIranianDate:
-     * Returns a string version of Iranian date with user pattern separator.
+     * Returns an string version of Iranian date with user pattern separator.
      * @author Seyed Ali Roshan
-     * @param Pattern
+     * @param splitter
+     *  an splitter between year month and day.
      * @return String
      */
-    public String getIranianDate(String Pattern) {
-        return (irYear + Pattern + irMonth + Pattern + irDay);
+    public String getIranianDate(String splitter) {
+        return (irYear + splitter + irMonth + splitter + irDay);
     }
+    
+    /**
+     * Returns an String version of Iranian date with user pattern separator and put 
+     * @param jalaliAirDate 
+     */
     
     public void setIranianDate(String jalaliAirDate) {
         String[] dateSplit = jalaliAirDate.split("/");
