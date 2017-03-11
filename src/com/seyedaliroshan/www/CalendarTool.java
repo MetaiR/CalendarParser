@@ -34,7 +34,7 @@ import java.util.GregorianCalendar;
  * void setGregorianDate(int year, int month, int day);
  * void setJulianDate(int year, int month, int day);
  */
-public class CalandarTool {
+public class CalendarTool {
 
     static String iraniWeekDayStr[] = {
             "دوشنبه",
@@ -77,7 +77,7 @@ public class CalandarTool {
      * The default constructor uses the current Gregorian date to initialize the
      * other private memebers of the class (Iranian and Julian dates).
      */
-    public CalandarTool() {
+    public CalendarTool() {
         Calendar calendar = new GregorianCalendar();
         setGregorianDate(calendar.get(Calendar.YEAR),
                 calendar.get(Calendar.MONTH) + 1,
@@ -93,7 +93,7 @@ public class CalandarTool {
      * @param month int
      * @param day   int
      */
-    public CalandarTool(int year, int month, int day) {
+    public CalendarTool(int year, int month, int day) {
         setGregorianDate(year, month, day);
     }
 
